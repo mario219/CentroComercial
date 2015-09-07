@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/oferta_imagen"
+            android:src="@android:drawable/ic_popup_reminder"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/oferta_nombre"
+            android:text="nombre"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/pressedButtonColor"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/oferta_precio"
+            android:text="precio"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/input_register_bg"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
